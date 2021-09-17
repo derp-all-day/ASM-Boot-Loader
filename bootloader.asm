@@ -46,7 +46,7 @@ _printString:
 .done:
         ret
 
-        IntroString db "Axolotl's Memory Loader", 0x0d, 0x0a, 0
+        IntroString db "Tonic's Memory Loader", 0x0d, 0x0a, 0
         LoadingMessage db "Will attempt to load image to memory address 0x8000", 0x0d, 0x0a, 0
         ReadingDisk db "Disk read attempt...", 0x0d, 0x0a, 0
         ReadFailed db "Disk read failure", 0x0d, 0x0a, 0
